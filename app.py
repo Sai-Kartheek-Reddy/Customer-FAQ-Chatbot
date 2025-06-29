@@ -6,20 +6,20 @@ import time
 # --------------------------------------------------
 # 🔧 Install / upgrade dependencies silently
 # --------------------------------------------------
-subprocess.check_call([
-    sys.executable,
-    "-m",
-    "pip",
-    "install",
-    "-q",
-    "-U",
-    "trl",
-    "faiss-cpu",
-    "langchain",
-    "sentence-transformers",
-    "langchain-community",
-    "streamlit",
-])
+# subprocess.check_call([
+#     sys.executable,
+#     "-m",
+#     "pip",
+#     "install",
+#     "-q",
+#     "-U",
+#     "trl",
+#     "faiss-cpu",
+#     "langchain",
+#     "sentence-transformers",
+#     "langchain-community",
+#     "streamlit",
+# ])
 
 
 import streamlit as st
