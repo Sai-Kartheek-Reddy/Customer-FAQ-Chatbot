@@ -32,7 +32,7 @@ subprocess.check_call([
 # ------------------------------------------
 # os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
-genai.configure(api_key="AIzaSyC2J6-_-IabDwbdLJvxawGXwrCGs0ud6xM")   # ✅ Add your Gemini API key
+genai.configure(api_key="API-KEY")   # ✅ Add your Gemini API key
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
