@@ -23,7 +23,7 @@ import time
 
 
 import streamlit as st
-from Backend import rag_query  # Replace "Backend" with "GBackend" to use Gemini Based Applications
+from GBackend import rag_query  # Replace "Backend" with "GBackend" to use Gemini Based Applications
 
 # --------------------------------------------------
 # 🖼️ Page configuration & header
