@@ -9,4 +9,7 @@ accelerate>=0.20.3
 google-generativeai
 trl
 langchain-community
+langchain==0.1.16
+langchain-core==0.1.33
+langchain-community==0.0.21
 
